@@ -121,4 +121,16 @@ a:hover {
     }
  }
 
- 
+ /* ========== Media Queries(Small devices) ========  */
+
+ @media screen and (max-width: 600){
+    .container {
+        width: var(--container-width-ms);
+    }
+    section {
+        margin-top: 2rem;
+    }
+ }
+
+
+
