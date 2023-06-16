@@ -4,7 +4,7 @@ import './por.css'
 function Por() {
   return (
     <div>
-      
+      Por
     </div>
   )
 }
