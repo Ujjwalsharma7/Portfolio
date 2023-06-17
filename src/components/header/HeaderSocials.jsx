@@ -5,9 +5,9 @@ import  {AiFillInstagram} from 'react-icons/ai'
 function HeaderSocials() {
   return (
     <div className='header__socials'>
-      <a href="https://github.com/Ujjwalsharma7" target='_blank'><AiFillGithub/></a>
-      <a href="https://www.linkedin.com/in/ujjwal-sharma-71b760222/" target='blank'><AiFillLinkedin/></a>
-      <a href="https://www.instagram.com/ujjwal.sharma_/" target='blank'><AiFillInstagram/></a>
+      <a href="https://github.com/Ujjwalsharma7" ><AiFillGithub/></a>
+      <a href="https://www.linkedin.com/in/ujjwal-sharma-71b760222/" ><AiFillLinkedin/></a>
+      <a href="https://www.instagram.com/ujjwal.sharma_/"><AiFillInstagram/></a>
     </div>
   )
 }
