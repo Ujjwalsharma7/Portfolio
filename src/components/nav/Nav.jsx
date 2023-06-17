@@ -9,14 +9,16 @@ import {AiFillProject} from 'react-icons/ai'
 
 function Nav() {
   return (
-    <div className='nav'>
+  <nav>
+
      <a href="#header"><AiFillHome/></a>
      <a href="#about"><AiOutlineUser/></a>
      <a href="#education"><BsFillBookFill/></a>
      <a href="#experience"><FaToolbox/></a>
      <a href="#portfolio"><AiFillProject/></a>
      <a href="#contact"><AiFillContacts/></a>
-    </div>
+  </nav>
+    
   )
 }
 
