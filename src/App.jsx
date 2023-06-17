@@ -15,8 +15,8 @@ export default function App() {
       <Header />
       <Nav />
       <About />
-      <Experience />
       <Education />
+      <Experience />
       <Portfolio />
       <Por />
       <Contact />

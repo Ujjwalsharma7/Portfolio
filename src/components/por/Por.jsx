@@ -3,9 +3,9 @@ import './por.css'
 
 function Por() {
   return (
-    <div>
+    <section id='por'>
       Por
-    </div>
+    </section>
   )
 }
 
