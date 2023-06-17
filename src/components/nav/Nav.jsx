@@ -6,17 +6,19 @@ import {BsFillBookFill} from 'react-icons/bs'
 import {FaToolbox} from 'react-icons/fa'
 import {AiFillContacts} from 'react-icons/ai'
 import {AiFillProject} from 'react-icons/ai'
+import { useState } from 'react'
 
 function Nav() {
-  return (
+  const [activeNav, setActiveNav] = useState('#');
+  return(
   <nav>
 
-     <a href="#header" className='active'><AiFillHome/></a>
-     <a href="#about"><AiOutlineUser/></a>
-     <a href="#education"><BsFillBookFill/></a>
-     <a href="#experience"><FaToolbox/></a>
-     <a href="#portfolio"><AiFillProject/></a>
-     <a href="#contact"><AiFillContacts/></a>
+     <a href="#"  onClick={() => setActiveNav('#')}  className={activeNav === '#'? 'active' : ''}><AiFillHome/></a>
+     <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active' : '' }><AiOutlineUser/></a>
+     <a href="#education"  onClick={() => setActiveNav('#education')} className={activeNav === '#education'? 'active' : '' }><BsFillBookFill/></a>
+     <a href="#experience"  onClick={() => setActiveNav('#experience')} className={activeNav === '#experience'? 'active' : '' }><FaToolbox/></a>
+     <a href="#portfolio"  onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio'? 'active' : '' }><AiFillProject/></a>
+     <a href="#contact"  onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active' : '' }><AiFillContacts/></a>
   </nav>
     
   )
