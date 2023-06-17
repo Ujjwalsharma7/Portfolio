@@ -9,11 +9,11 @@ import {AiFillProject} from 'react-icons/ai'
 import { useState } from 'react'
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState('#');
+  const [activeNav, setActiveNav] = useState('#header');
   return(
   <nav>
 
-     <a href="#"  onClick={() => setActiveNav('#')}  className={activeNav === '#'? 'active' : ''}><AiFillHome/></a>
+     <a href="#header"  onClick={() => setActiveNav('#header')}  className={activeNav === '#header'? 'active' : ''}><AiFillHome/></a>
      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active' : '' }><AiOutlineUser/></a>
      <a href="#education"  onClick={() => setActiveNav('#education')} className={activeNav === '#education'? 'active' : '' }><BsFillBookFill/></a>
      <a href="#experience"  onClick={() => setActiveNav('#experience')} className={activeNav === '#experience'? 'active' : '' }><FaToolbox/></a>

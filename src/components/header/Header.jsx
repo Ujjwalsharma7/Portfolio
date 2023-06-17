@@ -5,7 +5,7 @@ import me2 from '../../assets/me2.JPG'
 import HeaderSocials from './HeaderSocials'
 function Header() {
   return (
-   <header >
+   <header id='header' >
     <div className="container header__container">
       <h5>Hello I'm</h5>
       <h1>Ujjwal Sharma</h1>
