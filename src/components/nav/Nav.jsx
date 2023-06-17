@@ -11,7 +11,7 @@ function Nav() {
   return (
   <nav>
 
-     <a href="#header"><AiFillHome/></a>
+     <a href="#header" className='active'><AiFillHome/></a>
      <a href="#about"><AiOutlineUser/></a>
      <a href="#education"><BsFillBookFill/></a>
      <a href="#experience"><FaToolbox/></a>
