@@ -16,9 +16,28 @@
 .about__me-image{
     border-radius: 2rem;
     overflow: hidden;
-    transform-origin: rotate(0deg);
+    transform-origin: rotate(10deg);
     transition: var(--transition);
 }
 .about__me-image:hover{
-    transform: rotate(10deg);
+    transform: rotate(0deg);
 }
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--color-bg-varient);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+.about__card:hover{
+    background: transparent;
+    background-color: var(--color-primary-varient);
+}
+ 
