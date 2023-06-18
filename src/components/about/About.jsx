@@ -37,6 +37,7 @@ function About() {
           <small> Completed 20+ projects  </small>
         </article>
       </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel odio molestiae harum quos, modi quod corporis corrupti exercitationem illum rerum repudiandae necessitatibus sequi odit repellat quidem sint quis eius impedit fuga, qui ipsam. Eum, optio voluptates veritatis a sapiente possimus ipsum maxime, vitae error iste soluta cumque ullam? Porro, qui!</p>
     </div>
      </section>
   )
