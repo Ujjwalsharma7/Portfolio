@@ -4,7 +4,7 @@
     gap: 15%;
 }
 
-.about__me{
+.about-me{
     width: 100% ;
     aspect-ratio: 1/1;
     border-radius:2rem;
@@ -45,8 +45,21 @@
 .about-icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     margin-top: 1rem;
 }
 
+.about__card h5{
+    font-size: 0.9rem;
+}
+
+.about__card small{
+    font-size: 0.7rem;
+    color: var(--color-light);
+}
+
+.about__content p{
+    margin: 2rem 0 2.6rem;
+    color: var(--color-light);
+}
  

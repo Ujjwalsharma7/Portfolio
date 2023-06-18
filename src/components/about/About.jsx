@@ -12,13 +12,13 @@ function About() {
       <h2>About Me</h2>
 
       <div className='container about__container'>
-        <div className="about__me">
+        <div className="about-me">
           <div className="about__me-image">
             <img src={me3} alt='' />
           </div>
         </div>
 
-        <div className="about__contnet">
+        <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
               < AiFillBook className='about-icon' />
