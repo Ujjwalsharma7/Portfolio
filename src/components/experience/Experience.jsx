@@ -13,114 +13,141 @@ const Experience = () => {
           <h3>Web Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
-              <BsFillPatchCheckFill />
+              <BsFillPatchCheckFill className='experience__details-icon' />
               <div>
 
                 <h4>HTML</h4>
-              </div>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>css</h4>
-              </div>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>JavaScript</h4>
-              </div>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>Bootstrap</h4>
-              </div>
               <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>Tailwind</h4>
-              </div>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>NodeJs</h4>
-              </div>
               <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>MongoDB</h4>
-              </div>
               <small className="text-light">Intermediate</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
               <div>
 
                 <h4>React</h4>
-              </div>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
           </div>
         </div>
         {/* end of webd */}
         <div className="experience__others">
+        
+
           <h3>Others</h3>
+          
           <div className="experience__content">
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>Python</h4>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>Pandas</h4>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
-              <h4>Scikit-Learn</h4>
+              <div>
+
+              <h4>SK-Learn</h4>
               <small className="text-light">Beginner</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>Tensorflow</h4>
               <small className="text-light">Beginner</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>C</h4>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>C++</h4>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>Arduino</h4>
               <small className="text-light">Experienced</small>
+              </div>
             </article>
             <article className='experience__details'>
               <BsFillPatchCheckFill />
+              <div>
+
               <h4>MATLAB</h4>
               <small className="text-light">Beginner</small>
+              </div>
             </article>
           </div>
         </div>
