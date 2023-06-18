@@ -54,7 +54,51 @@ const Experience = () => {
           </article>
         </div>
       </div>
-      <div className="experience__others"></div>
+      <div className="experience__others">
+      <h3>Others</h3>
+        <div className="experience__content">
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>Python</h4> 
+            <small className="text-light">Experienced</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>Pandas</h4> 
+            <small className="text-light">Experienced</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>Scikit-Learn</h4> 
+            <small className="text-light">Beginner</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>Tensorflow</h4> 
+            <small className="text-light">Beginner</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>C</h4> 
+            <small className="text-light">Experienced</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>C++</h4> 
+            <small className="text-light">Experienced</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>Arduino IDE</h4> 
+            <small className="text-light">Experienced</small>
+          </article>
+          <article className='experience__details'>
+            <BsFillPatchCheckFill />
+            <h4>MATLAB</h4> 
+            <small className="text-light">Beginner</small>
+          </article>
+        </div>
+      </div>
     </div>
     </section>
   )
