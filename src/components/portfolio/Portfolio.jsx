@@ -16,10 +16,52 @@ function portfolio() {
 
       <div className="container portfolio__container">
         <article className='portfolio__item'>
-          <div className="portfolio__item-image"></div>
+          <div className="portfolio__item-image">
+            <img src={IMG1} alt="" />
+          </div>
           <h3>Title</h3>
           <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '></a>
+          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG2} alt="" />
+          </div>
+          <h3>Title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="" />
+          </div>
+          <h3>Title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
+        </article>
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Title</h3>
+          <a href="https://github.com" className='btn'>Github</a>
+          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
         </article>
       </div>
     </section>
