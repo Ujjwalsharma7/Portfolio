@@ -54,16 +54,22 @@ function portfolio() {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
+        {
+          data.map(({id, image, title, github}) => {
+            return(
+              <article  key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
+            <img src={image} alt="" />
           </div>
-          <h3>Title</h3>
+          <h3>{title}</h3>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
+          <a href={github} className='btn'>Github</a>
           <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
           </div>
         </article>
+            )
+          })
+        }
        </div>
     </section>
   )
