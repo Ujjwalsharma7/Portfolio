@@ -1,5 +1,12 @@
 import React from 'react'
 import './portfolio.css'
+import IMG1 from '../../assets/cart.webp'
+import IMG2 from '../../assets/glove.webp'
+import IMG3 from '../../assets/liFi.webp'
+import IMG4 from '../../assets/pcb_fault.webp'
+import IMG5 from '../../assets/smart_blind.webp'
+import IMG6 from '../../assets/swarm bot.webp'
+
 
 function portfolio() {
   return (
