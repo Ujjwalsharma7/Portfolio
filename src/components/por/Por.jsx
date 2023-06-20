@@ -1,5 +1,6 @@
 import React from 'react'
 import './por.css'
+import logo from '../../assets/favicon.ico'
 
 function Por() {
   return (
@@ -10,7 +11,7 @@ function Por() {
       <div className="container por__container">
         <article className='por'>
         <div className="logo">
-          <img src="" alt="" />
+          <img src={logo} alt="" />
         </div>
         </article>
       </div>
