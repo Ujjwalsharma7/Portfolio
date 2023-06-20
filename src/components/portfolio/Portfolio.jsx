@@ -8,6 +8,45 @@ import IMG5 from '../../assets/smart_blind.webp'
 import IMG6 from '../../assets/swarm bot.webp'
 
 
+const data = [
+  {
+    id: 1,
+    image: IMG1,
+    title: 'Wise Hand',
+    github: 'https://github.com/Ujjwalsharma7'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Wise Hand',
+    github: 'https://github.com/Ujjwalsharma7'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Wise Hand',
+    github: 'https://github.com/Ujjwalsharma7'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Wise Hand',
+    github: 'https://github.com/Ujjwalsharma7'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Wise Hand',
+    github: 'https://github.com/Ujjwalsharma7'
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title: 'Wise Hand',
+    github: 'https://github.com/Ujjwalsharma7'
+  },
+]
+
 function portfolio() {
   return (
     <section id='portfolio'>
@@ -25,59 +64,7 @@ function portfolio() {
           <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
           </div>
         </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>Title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG3} alt="" />
-          </div>
-          <h3>Title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>Title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt="" />
-          </div>
-          <h3>Title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>Title</h3>
-          <div className="portfolio__item-cta">
-          <a href="https://github.com" className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
-          </div>
-        </article>
-
-       
-      </div>
+       </div>
     </section>
   )
 }
