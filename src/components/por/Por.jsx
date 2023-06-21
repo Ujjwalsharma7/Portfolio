@@ -34,7 +34,16 @@ function Por() {
       <div className="container por__container">
      {
       data.map(({img, name, position, description}, index) => {
-        
+        return(
+        <article className='por'>
+        <div className="logo">
+          <img src={img} alt="" />
+        </div>
+          <h2 className='org__name'>{name}</h2>
+          <h4 className='position'>{position}</h4>
+          <small className='description'>{description}</small>
+        </article> 
+        )
       })
      }
        
