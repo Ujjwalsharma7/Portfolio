@@ -12,6 +12,8 @@ function Por() {
         <article className='por'>
         <div className="logo">
           <img src={logo} alt="" />
+          <h3 className='org__name'>Team Vibhav</h3>
+          <small>Executive Member</small>
         </div>
         </article>
       </div>
