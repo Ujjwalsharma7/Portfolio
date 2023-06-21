@@ -2,12 +2,14 @@ import React from 'react'
 import './por.css'
 import logo from '../../assets/favicon.ico'
 import logo2 from '../../assets/dps.webp'
+import { Pagination } from 'swiper'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
+import 'swiper/css/pagination';
 
 
 
@@ -38,23 +40,27 @@ function Por() {
       <h5>Watch My</h5>
       <h2>Positions of Responsibilty</h2>
 
-      <div className="container por__container">
+      <Swiper  className="container por__container"
+      modules={[Pagination]}
+       spaceBetween={40}
+       slidesPerView={1}
+      pagination={{clickable:true}} >
      {
       data.map(({img, name, position, description}, index) => {
         return(
-        <article className='por'>
+        <SwiperSlide key={index} className='por'>
         <div className="logo">
           <img src={img} alt="" />
         </div>
           <h2 className='org__name'>{name}</h2>
           <h4 className='position'>{position}</h4>
           <small className='description'>{description}</small>
-        </article> 
+        </SwiperSlide> 
         )
       })
      }
        
-      </div>
+      </Swiper>
     </section>
   )
 }
