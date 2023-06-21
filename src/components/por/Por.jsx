@@ -3,6 +3,13 @@ import './por.css'
 import logo from '../../assets/favicon.ico'
 import logo2 from '../../assets/dps.webp'
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+
+
 
 const data = [
   {
