@@ -1,6 +1,29 @@
 import React from 'react'
 import './por.css'
 import logo from '../../assets/favicon.ico'
+import logo2 from '../../assets/dps.webp'
+
+
+const data = [
+  {
+    img: logo,
+    name: 'Team Vibhav',
+    position: 'Executive Member',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! '
+  },
+  {
+    img: logo,
+    name: 'Team Vibhav',
+    position: 'Volunteer',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! '
+  },
+  {
+    img: logo2,
+    name: 'DPS Ranipur',
+    position: 'Secretary Student Council',
+    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! '
+  }
+]
 
 function Por() {
   return (
@@ -9,30 +32,12 @@ function Por() {
       <h2>Positions of Responsibilty</h2>
 
       <div className="container por__container">
-        <article className='por'>
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
-          <h3 className='org__name'>Team Vibhav</h3>
-          <h5 className='position'>Executive Member</h5>
-          <small className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! Beatae!</small>
-        </article>  
-        <article className='por'>
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
-          <h2 className='org__name'>Team Vibhav</h2>
-          <h4 className='position'>Executive Member</h4>
-          <small className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! Beatae!</small>
-        </article> 
-        <article className='por'>
-        <div className="logo">
-          <img src={logo} alt="" />
-        </div>
-          <h3 className='org__name'>Team Vibhav</h3>
-          <h5 className='position'>Executive Member</h5>
-          <small className='description'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! Beatae!</small>
-        </article> 
+     {
+      data.map(({img, name, position, description}, index) => {
+        
+      })
+     }
+       
       </div>
     </section>
   )
