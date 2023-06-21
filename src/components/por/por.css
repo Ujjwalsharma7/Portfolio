@@ -29,3 +29,21 @@
 .position{
     color: var(--color-primary);
 }
+
+@media screen and (max-width: 1024px) {
+.container.por__container{
+    width: 60%;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .container.por__container{
+        width: var(--container-width-ms)
+    }
+    .description{
+        width: var(--container-width-ms);
+    }
+    }
+    
+
+      
