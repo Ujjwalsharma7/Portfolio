@@ -1,0 +1,12 @@
+.container.por__container{
+    width: 40%;
+}
+
+.logo{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-varient);
+}
