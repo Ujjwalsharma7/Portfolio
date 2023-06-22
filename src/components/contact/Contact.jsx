@@ -1,6 +1,7 @@
 import React from 'react'
 import './contact.css'
 import {AiOutlineMail} from 'react-icons/ai'
+import {BsWhatsapp} from 'react-icons/bs'
 const Contact = () => {
   return (
    <section id='contact'>
@@ -16,7 +17,15 @@ const Contact = () => {
             <h5>ujjwalsharma1772003@gmail.com</h5>
             <a href="mailto:ujjwalsharma1772003@gmail.com">Send a message</a>
           </article>
+          <article className="contact__option">
+            <BsWhatsapp/>
+            <h4>Whatsapp</h4>
+            <h5>7302949712</h5>
+            <a href="https://api.whatsapp.com/send?phone=+917302949712">Send a message</a>
+          </article>
+      
         </div>
+     
       </div>
    </section>
       
