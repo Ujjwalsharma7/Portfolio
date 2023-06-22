@@ -25,7 +25,11 @@ const Contact = () => {
           </article>
       
         </div>
-     
+        <form action="">
+          <input type="text" name='name' placeholder='Your Full Name' required />
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" id="" cols="30" rows="7" placeholder='Your Message' required></textarea>
+        </form>
       </div>
    </section>
       
