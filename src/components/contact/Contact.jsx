@@ -10,12 +10,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_7tumkbs', 'service_7tumkbs', form.current, 'Dla5reMoXyNScW5HO')
+    emailjs.sendForm('service_7tumkbs', 'template_ja6apyy', form.current, 'Dla5reMoXyNScW5HO')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+
+      e.target.reset();
   };
 
   return (
