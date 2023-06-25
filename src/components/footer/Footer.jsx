@@ -21,10 +21,14 @@ function Footer() {
       
       </ul>
 
-      <div>
+      <div className='footer__socials'>
         <a href="https://github.com/Ujjwalsharma7"><AiFillGithub/></a>
         <a href="https://www.linkedin.com/in/ujjwal-sharma-71b760222"><AiFillLinkedin/></a>
         <a href="https://www.instagram.com/ujjwal.sharma_/"><AiFillInstagram/></a>
+      </div>
+
+      <div className='footer__copyright'>
+        <small>&copy; Ujjwalsharma7. All rights reserved</small>
       </div>
 
 </footer>
