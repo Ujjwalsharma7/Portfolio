@@ -18,8 +18,8 @@ function Header() {
         2000, // wait 1s before replacing "Mice" with "Hamsters"
         'AI/ML Enthusiast ',
         2000,
-        // 'We produce food for Guinea Pigs',
-        // 1000,
+        'Electronics student',
+        2000,
         // 'We produce food for Chinchillas',
         // 1000
       ]}
