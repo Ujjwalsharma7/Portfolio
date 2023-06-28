@@ -3,7 +3,7 @@ import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
 import About from './components/about/About'
 import Experience from './components/experience/Experience'
-import Education from './components/education/Education'
+
 import Portfolio from './components/portfolio/Portfolio'
 import Por from './components/por/Por'
 import Contact from './components/contact/Contact'
@@ -15,7 +15,6 @@ export default function App() {
       <Header />
       <Nav />
       <About />
-      <Education />
       <Experience />
       <Portfolio />
       <Por />

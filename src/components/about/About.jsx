@@ -22,7 +22,7 @@ function About() {
           <div className="about__cards">
             <article className='about__card'>
               < AiFillBook className='about-icon' />
-              <h5>NITH</h5>
+              <h5>NIT Hamirpur</h5>
               <small>3rd Year</small>
             </article>
             <article className='about__card'>
@@ -36,7 +36,7 @@ function About() {
               <small> 20+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel odio molestiae harum quos, modi quod corporis corrupti exercitationem illum rerum repudiandae necessitatibus sequi odit repellat quidem sint quis eius impedit fuga, qui ipsam. Eum, optio voluptates veritatis a sapiente possimus ipsum maxime, vitae error iste soluta cumque ullam? Porro, qui!</p>
+          <p> I am a full stack developer currently pursuing my Bachlor's in Electronics and communication branch at NIT Hamirpur. I completed my schooling from DPS, Ranipur. With a passion for both hardware and software, I enjoy exploring the intersection of electronics and programming. I am constantly seeking opportunities to expand my knowledge and skills in web development, database management and machine learning. </p>
         </div>
       </div>
     </section>
