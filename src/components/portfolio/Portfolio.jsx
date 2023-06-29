@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Wise Hand',
+    title:'Investment Calculator',
     github: 'https://github.com/Ujjwalsharma7'
   },
   {
@@ -24,25 +24,25 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'Wise Hand',
+    title: 'Expense Tracker',
     github: 'https://github.com/Ujjwalsharma7'
   },
   {
     id: 4,
     image: IMG4,
-    title: 'Wise Hand',
+    title: 'Blog Website',
     github: 'https://github.com/Ujjwalsharma7'
   },
   {
     id: 5,
     image: IMG5,
-    title: 'Wise Hand',
+    title: 'Onepiece Game',
     github: 'https://github.com/Ujjwalsharma7'
   },
   {
     id: 6,
     image: IMG6,
-    title: 'Wise Hand',
+    title: 'Music Player',
     github: 'https://github.com/Ujjwalsharma7'
   },
 ]
