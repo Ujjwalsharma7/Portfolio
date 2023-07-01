@@ -13,37 +13,37 @@ const data = [
     id: 1,
     image: IMG1,
     title:'Investment Calculator',
-    github: 'https://github.com/Ujjwalsharma7'
+    github: 'https://github.com/Ujjwalsharma7/Investment_Calculator'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Wise Hand',
-    github: 'https://github.com/Ujjwalsharma7'
+    github: 'https://github.com/Ujjwalsharma7/Construire-Concetto'
   },
   {
     id: 3,
     image: IMG3,
     title: 'Expense Tracker',
-    github: 'https://github.com/Ujjwalsharma7'
+    github: 'https://github.com/Ujjwalsharma7/Expense_Tracker'
   },
   {
     id: 4,
     image: IMG4,
     title: 'Blog Website',
-    github: 'https://github.com/Ujjwalsharma7'
+    github: 'https://github.com/Ujjwalsharma7/Blog_Website'
   },
   {
     id: 5,
     image: IMG5,
     title: 'Onepiece Game',
-    github: 'https://github.com/Ujjwalsharma7'
+    github: 'https://github.com/Ujjwalsharma7/Onepiece_Game'
   },
   {
     id: 6,
     image: IMG6,
     title: 'Music Player',
-    github: 'https://github.com/Ujjwalsharma7'
+    github: 'https://github.com/Ujjwalsharma7/Music_player'
   },
 ]
 
