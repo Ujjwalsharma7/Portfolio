@@ -24,13 +24,13 @@ const data = [
     img: logo,
     name: 'Team Vibhav',
     position: 'Volunteer',
-    description: 'We organize several events that include some electronic games and a day of exciting games for everyone in honor of the establishment of our club. '
+    description: 'We organize several events that include some electronic games and also run a social campaign called "Pahal" to educate people about the useful technological advancements all around them.'
   },
   {
     img: logo2,
     name: 'DPS Ranipur',
     position: 'Secretary Student Council',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! '
+    description: 'As the Secrateray of Student Council, I had to manage several events in the school and also had to see the proper functioning of other council members. '
   }
 ]
 

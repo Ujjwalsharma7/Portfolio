@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/cart.webp'
+import IMG1 from '../../assets/investment-calculator-logo.png'
 import IMG2 from '../../assets/glove.webp'
-import IMG3 from '../../assets/liFi.webp'
-import IMG4 from '../../assets/pcb_fault.webp'
-import IMG5 from '../../assets/smart_blind.webp'
-import IMG6 from '../../assets/swarm bot.webp'
+import IMG3 from '../../assets/SpendingTrackerTrackingPrintableChart_1024x1024@2x.webp'
+import IMG4 from '../../assets/a6a05057268281.59cec7db14cfb.jpg'
+import IMG5 from '../../assets/e9XAJK5__400x400.png'
+import IMG6 from '../../assets/cd-music-player-concept-vector-2M6DWN1.jpg'
 
 
 const data = [
