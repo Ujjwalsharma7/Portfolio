@@ -18,13 +18,13 @@ const data = [
     img: logo,
     name: 'Team Vibhav',
     position: 'Executive Member',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! '
+    description: ''
   },
   {
     img: logo,
     name: 'Team Vibhav',
     position: 'Volunteer',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nisi placeat molestias. Voluptates iste eos sed explicabo est consequuntur! '
+    description: 'We organize several events that include some electronic games and a day of exciting games for everyone in honor of the establishment of our club. '
   },
   {
     img: logo2,
