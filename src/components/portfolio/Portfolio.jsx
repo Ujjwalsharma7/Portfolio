@@ -64,7 +64,7 @@ function portfolio() {
           <h3>{title}</h3>
           <div className="portfolio__item-cta">
           <a href={github} className='btn'>Github</a>
-          <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a>
+          {/* <a href="https://dribbble.com/shots/popular" className='btn btn-primary' target='_blank '>Description</a> */}
           </div>
         </article>
             )
