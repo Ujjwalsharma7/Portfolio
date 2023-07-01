@@ -18,7 +18,7 @@ const data = [
     img: logo,
     name: 'Team Vibhav',
     position: 'Executive Member',
-    description: ''
+    description: 'We organize many events on the actual three days of Nimbus (the annual tech fest of NITH), which are aimedto provide a fun-filled but still quite informative experience of Electronics and many other domains.'
   },
   {
     img: logo,
